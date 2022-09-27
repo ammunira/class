@@ -1,0 +1,20 @@
+#include <stdio.h>
+ int main ()
+{
+        int i,sub=0,num=5;
+        for (i=1;i<5;++i)
+        {
+        printf("enter n%d");
+                scanf("%d",& sub);
+
+
+    if(sub>0)
+
+{
+   break;
+}
+sub-=num;
+        }
+    printf("ans:%d",sub);
+        return 0;
+}
